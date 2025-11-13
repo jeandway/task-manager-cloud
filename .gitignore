@@ -1,0 +1,15 @@
+# Don't upload virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# SQLite database should not be versioned
+tasks.db
+
+# macOS system files
+.DS_Store
+
+# Security keys (never upload!)
+*.pem
